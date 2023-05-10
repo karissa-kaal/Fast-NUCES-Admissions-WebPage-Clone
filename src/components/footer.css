@@ -1,0 +1,48 @@
+.footer-bg{
+    background-color: #242c42;
+    height: 320px;
+    padding-left: 98px;
+    padding-right: 98px;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+.contact{
+    order: 1;
+}
+
+.useful-links{
+    order: 2;
+}
+
+.campuses{
+    order: 3;
+}
+
+svg{
+    color: #0093dd;
+}
+
+.logo-f{
+    max-width: 88%;
+}
+
+.title-f{
+    padding-bottom: 15px;
+}
+
+.title-f span{
+    padding-left: 10px;
+    color: #0093dd;
+    font-weight: bold;
+}
+
+.contacts-locash > svg, .contacts-locash .cont > svg{
+    color: white;
+    padding-right: 15px;
+}
