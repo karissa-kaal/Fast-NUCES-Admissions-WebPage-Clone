@@ -1,6 +1,8 @@
 import "./header.css";
 import { useState } from 'react';
 import { FaSearch, FaAngleDown } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+import React from "react";
 
 function Header(){
     const [activeTab, setActiveTab] = useState('Home');
@@ -32,15 +34,16 @@ function Header(){
                     </a>
                     </li>
                     <li>
-                    <a
-                        href="#"
+                    <Link to = "/Admissions"
                         className={activeTab === 'Admissions' ? 'active' : ''}
-                        onClick={() => handleTabClick('Admissions')}
-                    >
+                        onClick={() => handleTabClick('Admissions')}>
+            
                         Admissions
                         <FaAngleDown />
-                    </a>
+                
+                    </Link>
                     </li>
+                    
                     <li>
                     <a
                         href="#"
@@ -102,7 +105,13 @@ function Header(){
                     </a>
                     </li>
                     <li>
-                    <a href="#">Contact Us</a>
+                    <Link to = "/ContactUs"
+                        className={activeTab === 'ContactUs' ? 'active' : ''}
+                        onClick={() => handleTabClick('ContactUs')}>
+            
+                        Contact Us
+                
+                    </Link>
                     </li>
                     <li>
                     <a href="#">Career</a>
