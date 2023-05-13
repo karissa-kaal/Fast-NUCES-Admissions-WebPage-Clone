@@ -3,11 +3,16 @@
     height: 320px;
     padding-left: 98px;
     padding-right: 98px;
+    padding-top: 30px;
     position: relative;
     bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footer-content, .all-links{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     color: white;
     font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
@@ -42,7 +47,38 @@ svg{
     font-weight: bold;
 }
 
-.contacts-locash > svg, .contacts-locash .cont > svg{
+.contacts-locash > svg, .contacts-locash .cont > svg, .cont-icon > svg, .locash-icon > svg{
     color: white;
     padding-right: 15px;
+}
+
+.contacts-locash{
+    display: flex;
+}
+
+.locash, .cont, .all-links, .all-campuses{
+    line-height: 1.6;
+}
+
+.all-links .left-links span:hover, .all-links .right-links span:hover, .all-campuses span:hover{
+    color: #0093dd;
+    cursor: pointer;
+}
+
+.left-links , .right-links {
+    margin-right: 15px;
+}
+
+.copyright > svg{
+    color: rgb(204, 204, 204);
+}
+
+.copyright{
+    color: rgb(204, 204, 204);
+    font-size: 14px;
+    font-weight: bold;
+    border-top: 0.5px solid rgb(204, 204, 204);;
+    text-align: center;
+    padding: 10px;
+    background-color: #242c42;
 }
