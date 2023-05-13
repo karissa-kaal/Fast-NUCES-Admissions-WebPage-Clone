@@ -1,0 +1,19 @@
+.cont-header{
+    background-image: linear-gradient(rgba(2, 5, 20, 0.6), rgba(2, 5, 20, 0.6)), url('https://nu.edu.pk/Content/images/PageBanners/ContactUs.jpg');
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    background-attachment: scroll;
+    background-position: center;
+    text-align: center;
+}
+
+.campuses-cont{
+    display: grid;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}

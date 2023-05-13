@@ -1,5 +1,6 @@
 import { FaAngleRight } from "react-icons/fa";
 import "./bodyamd.css";
+import React from "react";
 
 function BodyAdm(){
     const tableData = [

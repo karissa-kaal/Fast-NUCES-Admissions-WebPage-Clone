@@ -1,5 +1,6 @@
 import './footer.css';
-import { FaPhoneAlt, FaLink, FaBuilding, FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaMapMarker, FaAngleRight, FaCopyright } from 'react-icons/fa';
+import { FaPhoneAlt, FaLink, FaBuilding, FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaMapMarkerAlt, FaAngleRight, FaCopyright } from 'react-icons/fa';
+import React from "react";
 
 function Footer(){
     const campuses = [
@@ -52,7 +53,7 @@ function Footer(){
                                 <FaFacebookF/><FaTwitter/><FaInstagram/><FaYoutube/>
                             </div>
 
-                            <div className="locash-icon"><FaMapMarker/></div>
+                            <div className="locash-icon"><FaMapMarkerAlt/></div>
                             
                             <div className="locash">
                                 Location:  <br />
