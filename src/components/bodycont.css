@@ -17,3 +17,37 @@
     padding-bottom: 30px;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+.adm-queries a{
+    color: #0093dd;
+}
+
+.adm-queries a:hover{
+    color: #242c42;
+}
+
+.ext-numbers, .adm-queries{
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ext-title{
+    font-size: 26px;
+    font-weight: 900;
+    border-bottom: 5px solid #0093dd;
+    color: #49575f;
+    margin-bottom: 15px;
+}
+
+.adm-queries td{
+    line-height: 1.6;
+    font-size: 15px;
+    padding: 2px;
+}
+
+.ext-numbers .adm-table .tb1{
+    margin-top: 15px;
+    width: 100%;
+}

@@ -54,7 +54,7 @@ li {
     margin: 0 10px;
 }
   
-a {
+.all-header a {
     color: black;
     font-size: 16px;
     text-decoration: none;
@@ -68,7 +68,7 @@ a > svg{
     stroke-width: "1";
 }
   
-a:hover:not(.active) {
+.all-header a:hover:not(.active) {
     border-bottom: 5px solid #0093dd;
 }
 
